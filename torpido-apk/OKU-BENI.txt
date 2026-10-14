@@ -1,0 +1,10 @@
+TORPIDO APK - KURULUM
+
+1) github.com'da giris yap, "New repository" ile bos bir depo ac (ornek ad: torpido).
+2) "uploading an existing file" baglantisina tikla ve bu klasorun ICINDEKI her seyi (www, .github, package.json, capacitor.config.json) surukleyip birak. Commit et.
+   Not: .github klasoru gizli gorunebilir; yuklendiginden emin ol.
+3) Depoda "Actions" sekmesine git > "Build APK" > "Run workflow".
+4) Isi bitince (yaklasik 5-8 dk) calismaya tikla, en altta "Artifacts" altindan "torpido-apk" dosyasini indir. Zip icinden app-debug.apk cikar.
+5) APK'yi telefona at, ac ve "bilinmeyen kaynaklardan yuklemeye izin ver" uyarisini onayla.
+
+Not: Bu "debug" APK'dir, kendi telefonunda ve test icin kullanilir. Play Store icin imzali "release" surumu gerekir.
